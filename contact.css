@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+BE+WAL:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sarpanch:wght@400;500;600;700;800;900&family=Sevillana&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    font-family: "Titillium Web", sans-serif;
+}
+nav img{
+    height: 105px;
+    width: 150px;
+    margin-left: 150px;
+}
+li{
+   list-style: none; 
+}
+nav a{
+    text-decoration: none;
+    color: burlywood;
+    font-size: 20px;
+}
+.hed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-right: 100px;
+}
+.hed a{
+    padding: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+}
+h1{
+    position: relative;
+    left: 550px;
+    bottom: 250px;
+    font-size: 50px;
+    margin-bottom: 80px;
+    font-family: "Titillium Web", sans-serif;
+}
+#coninf{
+    display: flex;
+    flex-direction: column;
+    padding: 167px 150px 178px 100px;
+    width: 200px;
+    position: relative;
+    margin-top: 50px;
+    background-color: rgba(98, 100, 103, 0.5);
+    border-radius: 100px 0px 0px 100px;
+}
+#coninf i{
+    padding: 20px 0px;
+    margin-left: 50px;
+}
+.conp{
+    position: absolute;
+    left: 200px;
+    top: 178px;
+}
+.conp p{
+    margin-bottom: 35px;
+    font-family: "Titillium Web", sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 130px 150px 114px 50px;
+    background-color: rgba(98, 100, 103, 0.5);
+    margin-right: 200px;
+    margin-top: 50px;
+    font-family: "Titillium Web", sans-serif;
+    border-radius: 0px 100px 100px 0px;
+}
+form input{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+}
+form i{
+    padding: 10px;
+}
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    margin: 20px 0px 0px 50px;
+    background-color: burlywood;
+    font-size: 18px;
+    font-family: "Titillium Web", sans-serif;
+}
+button:hover{
+    background-color:khaki;
+}
